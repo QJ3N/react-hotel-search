@@ -10,8 +10,7 @@
     "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vladilen Minin",
-  "license": "ISC",
+  "author": "Sergey volik",
   "devDependencies": {
     "babel-core": "^6.13.2",
     "babel-eslint": "^6.1.2",
