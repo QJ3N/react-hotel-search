@@ -28,6 +28,7 @@ export function getQuerySearchHotels(api_key, location, check_in, check_out, num
       requestString += '&amenity=' + amenityMass[i];
     }
   }
+  
 
   return fetch(requestString, {
     method: 'GET',

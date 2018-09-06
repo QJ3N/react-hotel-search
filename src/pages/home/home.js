@@ -178,8 +178,13 @@ class HomePage extends React.Component {
       amenity 
     } = this.state.validationForm;
     return(
-        <div> 
-          <img src='./img/hotel.jpg' className="img-fluid" alt="Responsive image"/>
+        <div className='home-body'>
+          <div id="welcomeimage" class="row">
+            <img src='./img/hotel.jpg' className="img-fluid" alt="Responsive image"/>
+            <div id="my_text_id" class="container">
+                Search hotels for free
+            </div>
+          </div>
           <div className="container marging-valid-form">
             
             <form onSubmit={ this.handleSubmit } className="needs-validation" noValidate>
